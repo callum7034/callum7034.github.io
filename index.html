@@ -3,25 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>LuxPlugins Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="container navbar-container">
-            <div class="logo">My Website</div>
+            <div class="logo">CallumR - LuxPlugins</div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#features">Features</a></li>
+                <li><a href="./projects.html">Past Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
             <div class="menu-toggle">☰</div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="container">
             <h1>Welcome to My Website</h1>
@@ -30,69 +28,61 @@
         </div>
     </section>
 
-    <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title">About Us</h2>
+            <h2 class="section-title">About me</h2>
             <div class="about-content">
                 <div class="about-text">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor.</p>
-                    <p>Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor, orci nec nonummy molestie, enim est eleifend mi, non fermentum diam nisl sit amet erat.</p>
-                    <p>Duis semper. Duis arcu massa, scelerisque vitae, consequat in, pretium a, enim. Pellentesque congue. Ut in risus volutpat libero pharetra tempor.</p>
+                    <p>Hey there! I'm a 22-year-old Software Engineer with a passion for creating awesome digital experiences. My coding journey started about 8 years ago when I first picked up Java, and I've been hooked ever since.</p>
+                    <p>After diving into the Spigot API over 7 years ago, I began developing custom plugins and eventually turned this skill into a legitimate side hustle during 2020 when the world slowed down. What started as a hobby has successfully evolved into my career, and I couldn't be happier about it!</p>
+                    <p>I'm comfortable with a range of development tools including Git, IntelliJ, and Gradle. My friends and colleagues know me as someone who's punctual, hard-working, and always gets the job done. My biggest strength? Problem-solving. I love tackling challenges head-on and finding creative solutions that work.</p>
                 </div>
                 <div class="about-image">
-                    <img src="https://via.placeholder.com/600x400" alt="About Us Image">
+                    <img src="images/aboutme.png" alt="About Us Image">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Features Section -->
     <section id="features" class="features">
         <div class="container">
-            <h2 class="section-title">Our Features</h2>
+            <h2 class="section-title">Past Projects</h2>
             <div class="features-container">
                 <div class="feature-card">
-                    <div class="feature-icon">🚀</div>
-                    <h3 class="feature-title">Fast & Responsive</h3>
-                    <p>Our website loads quickly and looks great on all devices, from mobile phones to desktop computers.</p>
+                    <div class="feature-icon">🏝️</div>
+                    <h3 class="feature-title">Skyblock Core</h3>
+                    <p>A high-performance Skyblock core built for customization and competitiveness. Features schematic-based island generation, triple-economy support, and a dynamic ranking system driven by spawners and block value. Includes a unique progression path using custom leveling via mob kills, farming, and mining.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">🔒</div>
-                    <h3 class="feature-title">Secure</h3>
-                    <p>We prioritize the security of your data and employ the latest security measures to protect your information.</p>
+                    <h3 class="feature-title">Punishment/Admin Core</h3>
+                    <p>A robust, all-in-one moderation solution. Features include: GUI-based ban/kick/mute/jail interfaces, IP and UUID tracking, Staff logging Silent vs. public actions, Customizable punishment reasons and durations, Integration with MySQL, LuckPerms, and Discord webhooks. Designed for efficiency and clarity in server rule enforcement.</p>
                 </div>
                 <div class="feature-card">
-                    <div class="feature-icon">🎨</div>
-                    <h3 class="feature-title">Beautiful Design</h3>
-                    <p>Our sleek, modern design enhances user experience and makes browsing a pleasure.</p>
+                    <div class="feature-icon">🚜</div>
+                    <h3 class="feature-title">Harvester Hoes</h3>
+                    <p>A fully customizable and upgradable Harvester Hoe system with an in-game GUI. Players can enhance hoes with modular upgrades (speed, fortune, auto-sell, etc.), backed by a custom economy and full MySQL/Vault support. Built for grinding and growth.</p>
+                </div>
+            </div>
+            <div class="view-all-projects">
+                <a href="projects.html" class="btn btn-projects">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Me!</h2>
+            <div class="contact-alternatives">
+                <div class="contact-option discord-contact-main">
+                    <a href="https://discord.com/users/callum_r" target="_blank">
+                        <img src="images/Discord-Symbol-Blurple.svg" alt="Discord" class="discord-icon"> Contact me on Discord: callum_r
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Contact Us</h2>
-            <form class="contact-form">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Your Name" required>
-                </div>
-                <div class="form-group">
-                    <input type="email" class="form-control" placeholder="Your Email" required>
-                </div>
-                <div class="form-group">
-                    <textarea class="form-control" placeholder="Your Message" required></textarea>
-                </div>
-                <div class="form-group">
-                    <button type="submit" class="btn">Send Message</button>
-                </div>
-            </form>
-        </div>
-    </section>
-
-    <!-- Footer -->
     <footer class="footer">
         <div class="container footer-container">
             <div class="footer-section">
@@ -104,24 +94,21 @@
                 <ul class="footer-links">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#features">Features</a></li>
+                    <li><a href="./projects.html">Past projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
             <div class="footer-section">
                 <h3>Contact Info</h3>
-                <p>Email: info@mywebsite.com</p>
-                <p>Phone: +1 123 456 7890</p>
-                <div class="social-links">
-                    <a href="#" aria-label="Facebook">📱</a>
-                    <a href="#" aria-label="Twitter">💬</a>
-                    <a href="#" aria-label="Instagram">📸</a>
-                    <a href="#" aria-label="LinkedIn">💼</a>
-                </div>
+                <p class="discord-contact">
+                    <a href="https://discord.com/users/callum_r" target="_blank">
+                        <img src="images/Discord-Symbol-Blurple.svg" alt="Discord" class="discord-icon"> callum_r
+                    </a>
+                </p>
             </div>
         </div>
         <div class="copyright container">
-            <p>&copy; 2025 My Website. All Rights Reserved.</p>
+            <p>&copy; 2025 CallumR. All Rights Reserved.</p>
         </div>
     </footer>
 
